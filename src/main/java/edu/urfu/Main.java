@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.toList;
 
 public class Main {
 
-    private int recursiveCalls = 0;
+    private long recursiveCalls = 0;
 
     public static void main(String[] args) {
         new Main().call(args);
